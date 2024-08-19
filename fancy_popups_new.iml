@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/build" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/shared_preferences_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/shared_preferences_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/shared_preferences_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/shared_preferences_windows/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/shared_preferences_windows/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/shared_preferences_windows/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/devfolio-main/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fancy_state_screens/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fancy_state_screens/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fancy_state_screens/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fancy_states/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fancy_states/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fancy_states/build" />
+      <excludeFolder url="file://$MODULE_DIR$/my_fancy_buttons/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/my_fancy_buttons/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/my_fancy_buttons/build" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
