@@ -1,7 +1,7 @@
 name: fancy_popups_new
-description: "A new Flutter project."
+description: "Fully Customizable Dialogs"
 version: 0.0.1
-homepage:
+homepage: https://github.com/loopstack33/fancy_popups.git
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
@@ -10,11 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -23,8 +25,8 @@ dev_dependencies:
 flutter:
 
   # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+   assets:
+     - assets/
   #   - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see

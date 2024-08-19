@@ -1,39 +1,23 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# fancy_popups_new
+[![Github stars](https://img.shields.io/github/stars/loopstack33/fancy_popups_new?logo=github)](https://github.com/loopstack33/fancy_popups_new)
+[![Pub Version](https://img.shields.io/pub/v/fancy_popups_new?color=blue&logo=dart)](https://pub.dev/packages/fancy_popups_new)
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+Fancy Fields is a flutter widget library, include text field widgets which is fully customizable and can be extended on request.
+No more extra hassle for all the extra working around with text fields.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+## Installation
+1) Add this to your packages pubspec.yaml file:
+```yaml
+dependencies:
+   fancy_popups_new: <latest version>
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+2) Install it
+   You can install it from the command line:
+```bash
+$ flutter pub get
+```
+3) Import it
+   Now in Dart code, you can use:
+```dart
+import 'package:fancy_popups_new/fancy_popups_new.dart';
+```
