@@ -1,5 +1,4 @@
 library fancy_popups_new;
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -28,8 +27,8 @@ class MyFancyPopup extends StatelessWidget {
 
   const MyFancyPopup({super.key,this.type, required this.heading,this.canPop=true,this.buttonColor=Colors.blue,this.dialogRadius=15, required this.body, this.assetIcon="",
     this.imageWidth=120,this.backgroundColor=Colors.white, this.imageHeight=120,
-    this.buttonWidth=150, this.buttonHeight=50,this.buttonRadius=15, this.isSvg=false, this.bodyStyle= const TextStyle(fontSize: 14,fontWeight: FontWeight.w300),
-    this.headingStyle= const TextStyle(fontSize: 20,fontWeight: FontWeight.w600), this.onClose,required this.buttonText, this.buttonStyle = const TextStyle(fontSize: 14,color: Colors.white)});
+    this.buttonWidth=150, this.buttonHeight=50,this.buttonRadius=15, this.isSvg=false, this.bodyStyle= const TextStyle(fontSize: 14,fontWeight: FontWeight.w300,fontFamily: 'Futura'),
+    this.headingStyle= const TextStyle(fontSize: 20,fontWeight: FontWeight.w600,fontFamily: 'Futura'), this.onClose,required this.buttonText, this.buttonStyle = const TextStyle(fontSize: 14,color: Colors.white,fontFamily: 'Futura')});
 
   @override
   Widget build(BuildContext context) {

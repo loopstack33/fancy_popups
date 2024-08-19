@@ -8,3 +8,6 @@ Assets Addition
 ## 0.0.3
 Bug Fixes
 Images Issue fixed
+
+## 0.0.3
+Version Update
