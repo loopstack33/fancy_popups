@@ -1,6 +1,6 @@
 name: fancy_popups_new
 description: "Fully Customizable Dialogs"
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/loopstack33/fancy_popups.git
 
 environment:
@@ -24,11 +24,10 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-  # To add assets to your package, add an assets section, like this:
-   assets:
-     - assets/
-  #   - images/a_dot_ham.jpeg
-  #
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
   #

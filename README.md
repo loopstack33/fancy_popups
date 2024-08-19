@@ -2,8 +2,8 @@
 [![Github stars](https://img.shields.io/github/stars/loopstack33/fancy_popups_new?logo=github)](https://github.com/loopstack33/fancy_popups_new)
 [![Pub Version](https://img.shields.io/pub/v/fancy_popups_new?color=blue&logo=dart)](https://pub.dev/packages/fancy_popups_new)
 
-Fancy Fields is a flutter widget library, include text field widgets which is fully customizable and can be extended on request.
-No more extra hassle for all the extra working around with text fields.
+Fancy Popups is a flutter widget library, include dialog widget which is fully customizable and can be extended on request.
+No more extra hassle for all the extra working around with beautiful dialogs.
 
 ## Installation
 1) Add this to your packages pubspec.yaml file:

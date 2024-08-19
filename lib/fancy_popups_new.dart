@@ -21,15 +21,15 @@ class MyFancyPopup extends StatelessWidget {
   final Type? type;
   final String heading, body, assetIcon, buttonText;
   final bool isSvg,canPop;
-  final VoidCallback onClose;
+  final VoidCallback? onClose;
   final Color buttonColor, backgroundColor;
   final TextStyle headingStyle, bodyStyle,buttonStyle;
   final double imageWidth, imageHeight, buttonWidth, buttonHeight,buttonRadius, dialogRadius;
 
-  const MyFancyPopup({super.key,this.type, required this.heading,this.canPop=true,this.buttonColor=Colors.blue,this.dialogRadius=15, required this.body, required this.assetIcon,
+  const MyFancyPopup({super.key,this.type, required this.heading,this.canPop=true,this.buttonColor=Colors.blue,this.dialogRadius=15, required this.body, this.assetIcon="",
     this.imageWidth=120,this.backgroundColor=Colors.white, this.imageHeight=120,
     this.buttonWidth=150, this.buttonHeight=50,this.buttonRadius=15, this.isSvg=false, this.bodyStyle= const TextStyle(fontSize: 14,fontWeight: FontWeight.w300),
-    this.headingStyle= const TextStyle(fontSize: 20,fontWeight: FontWeight.w600), required this.onClose,required this.buttonText, this.buttonStyle = const TextStyle(fontSize: 14,color: Colors.white)});
+    this.headingStyle= const TextStyle(fontSize: 20,fontWeight: FontWeight.w600), this.onClose,required this.buttonText, this.buttonStyle = const TextStyle(fontSize: 14,color: Colors.white)});
 
   @override
   Widget build(BuildContext context) {
@@ -56,27 +56,27 @@ class MyFancyPopup extends StatelessWidget {
                     child: Icon(Icons.close,color: Colors.black45,),
                   )
               ),
-              type!=null && isSvg==false?
-              type==Type.success? Image.asset("assets/success.png", height: imageWidth, width: imageHeight):
-              type==Type.error? Image.asset("assets/error.png", height: imageWidth, width: imageHeight):
-              type==Type.danger? Image.asset("assets/danger.png", height: imageWidth, width: imageHeight):
-              type==Type.warning? Image.asset("assets/warning.png", height: imageWidth, width: imageHeight):
-              type==Type.info? Image.asset("assets/info.png", height: imageWidth, width: imageHeight):
-              type==Type.search? Image.asset("assets/search.png", height: imageWidth, width: imageHeight):
-              type==Type.noInternet? Image.asset("assets/noInternet.png", height: imageWidth, width: imageHeight):
-              type==Type.serverError? Image.asset("assets/serverError.png", height: imageWidth, width: imageHeight):
-              type==Type.timeout? Image.asset("assets/timeout.png", height: imageWidth, width: imageHeight):
-              type==Type.location? Image.asset("assets/location.png", height: imageWidth, width: imageHeight):
-              type==Type.delete? Image.asset("assets/delete.png", height: imageWidth, width: imageHeight):
-              const SizedBox():
               isSvg? SvgPicture.asset(assetIcon, height: imageWidth, width: imageHeight):
-              Image.asset(assetIcon, height: imageWidth, width: imageHeight),
+              Image.asset(type==Type.success? "assets/images/success.png" :
+              type==Type.error? "assets/images/error.png" :
+              type==Type.danger? "assets/images/danger.png" :
+              type==Type.warning? "assets/images/warning.png" :
+              type==Type.info? "assets/images/info.png" :
+              type==Type.search? "assets/images/search.png" :
+              type==Type.noInternet? "assets/images/wifi.png" :
+              type==Type.serverError? "assets/images/server.png" :
+              type==Type.timeout? "assets/images/timeout.png" :
+              type==Type.location? "assets/images/location.png" :
+              type==Type.delete? "assets/images/delete.png" :
+              assetIcon, height: imageWidth, width: imageHeight),
               const SizedBox(height: 10),
               Text(heading, style: headingStyle,textAlign: TextAlign.center),
               Text(body, textAlign: TextAlign.center, style: bodyStyle),
               const SizedBox(height: 20),
               InkWell(
-                onTap: onClose,
+                onTap: onClose ?? (){
+                  Navigator.pop(context);
+                },
                 child: Container(
                   height: buttonHeight,
                   width: buttonWidth,
