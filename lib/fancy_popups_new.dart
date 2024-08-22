@@ -55,7 +55,7 @@ class MyFancyPopup extends StatelessWidget {
                     child: Icon(Icons.close,color: Colors.black45,),
                   )
               ),
-              isSvg? SvgPicture.asset(assetIcon, height: imageWidth, width: imageHeight):
+              isSvg? SvgPicture.asset(assetIcon, height: imageWidth, width: imageHeight,package: "fancy_popups_new"):
               Image.asset(type==Type.success? "assets/images/success.png" :
               type==Type.error? "assets/images/error.png" :
               type==Type.danger? "assets/images/danger.png" :
@@ -67,7 +67,8 @@ class MyFancyPopup extends StatelessWidget {
               type==Type.timeout? "assets/images/timeout.png" :
               type==Type.location? "assets/images/location.png" :
               type==Type.delete? "assets/images/delete.png" :
-              assetIcon, height: imageWidth, width: imageHeight),
+              assetIcon, height: imageWidth, width: imageHeight,
+              package: "fancy_popups_new"),
               const SizedBox(height: 10),
               Text(heading, style: headingStyle,textAlign: TextAlign.center),
               Text(body, textAlign: TextAlign.center, style: bodyStyle),
