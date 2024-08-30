@@ -1,5 +1,5 @@
 # fancy_popups_new
-[![Github stars](https://img.shields.io/github/stars/loopstack33/fancy_popups_new?logo=github)](https://github.com/loopstack33/fancy_popups_new)
+[![Github stars](https://img.shields.io/github/stars/loopstack33/fancy_popups?logo=github)](https://github.com/loopstack33/fancy_popups)
 [![Pub Version](https://img.shields.io/pub/v/fancy_popups_new?color=blue&logo=dart)](https://pub.dev/packages/fancy_popups_new)
 
 Fancy Popups is a flutter widget library, include dialog widget which is fully customizable and can be extended on request.
